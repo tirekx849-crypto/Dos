@@ -72,3 +72,55 @@ Termux sangat cocok untuk mode L4 (UDP/TCP) dan L7 (HTTP/TLS). *Catatan: Fitur L
 1. **Buka Termux**, lalu update repositori package:
    ```bash
    pkg update && pkg upgrade -y
+1. **Buka Termux**, lalu update repositori package:
+   ```bash
+   pkg update && pkg upgrade -y
+```
+
+2. Install Python dan Git:
+   ```bash
+   pkg install python git -y
+   ```
+3. Clone repositori ini:
+   ```bash
+   git clone https://github.com/tirekx849-crypto/Dos.git
+   ```
+4. Masuk ke folder:
+   ```bash
+   cd Dos
+   ```
+5. Jalankan tool:
+   ```bash
+   python index.py
+   ```
+🐉 CARA 2: Menjalankan di Kali Linux (PC / Laptop / VPS)
+
+Kali Linux adalah environment terbaik karena mendukung penuh sendmmsg dan raw socket untuk performa maksimal.
+
+1. Buka Terminal, update system:
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+   ```
+2. Install Python dan Git:
+   ```bash
+   sudo apt install python3 git -y
+   ```
+3. Clone repositori ini:
+   ```bash
+   git clone https://github.com/tirekx849-crypto/Dos.git
+   ```
+4. Masuk ke folder:
+   ```bash
+   cd Dos
+   ```
+5. Jalankan tool:
+   ```bash
+   python3 index.py
+   ```
+   [01] HTTP GET Flood ASYNC    (L7 ultra-cepat)
+[02] Slowloris BURST ASYNC   (L7 ribuan koneksi)
+...
+[12] ★ SUPER GANS L7 ASSAULT (HTTP+TLS+Slow, max)
+[13] ★ SUPER GANS LAN BLACKOUT (bcast+ssdp+mdns+gw udp)
+[14] ★ SUPER GANS ALL-OUT    (SEMUA vektor bareng)
+[00] Keluar
